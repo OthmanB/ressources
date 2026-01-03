@@ -1,20 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Time-series pipeline" id="7OU_x2JCwADE1m5EuR8V">
-    <mxGraphModel dx="1303" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+    <mxGraphModel dx="1396" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2NJ9P69aILRB7gsNBqAx-24" edge="1" parent="1" source="2NJ9P69aILRB7gsNBqAx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=block;startFill=1;strokeWidth=2;endArrow=oval;endFill=1;strokeColor=light-dark(#000000,#0000CC);" target="2NJ9P69aILRB7gsNBqAx-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2NJ9P69aILRB7gsNBqAx-25" edge="1" parent="1" source="2NJ9P69aILRB7gsNBqAx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=oval;endFill=1;startArrow=block;startFill=1;strokeWidth=2;strokeColor=light-dark(#000000,#0000CC);" target="2NJ9P69aILRB7gsNBqAx-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2NJ9P69aILRB7gsNBqAx-26" edge="1" parent="1" source="2NJ9P69aILRB7gsNBqAx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;endArrow=oval;endFill=1;strokeWidth=2;strokeColor=light-dark(#000000,#0000CC);" target="2NJ9P69aILRB7gsNBqAx-22">
+        <mxCell id="2NJ9P69aILRB7gsNBqAx-26" edge="1" parent="1" source="2NJ9P69aILRB7gsNBqAx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0;entryDx=0;entryDy=0;startArrow=block;startFill=1;endArrow=oval;endFill=1;strokeWidth=2;strokeColor=light-dark(#000000,#0000CC);" target="2NJ9P69aILRB7gsNBqAx-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="247" y="400" />
-              <mxPoint x="274" y="400" />
+              <mxPoint x="217" y="540" />
+              <mxPoint x="206" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -27,22 +24,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2NJ9P69aILRB7gsNBqAx-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#C6C6C6);strokeColor=light-dark(#000000,#000000);fontSize=14;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 15px;&quot;&gt;Probes / Instruments / measure system&lt;br&gt;(sensors, logs, CCD, …)&lt;/font&gt;" vertex="1">
-          <mxGeometry height="110" width="250" x="59" y="120" as="geometry" />
+          <mxGeometry height="110" width="211" x="59" y="120" as="geometry" />
         </mxCell>
         <mxCell id="2NJ9P69aILRB7gsNBqAx-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#C6C6C6);strokeColor=light-dark(#000000,#000000);fontSize=14;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Raw data retention&lt;br&gt;(SQL or unstructured)&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 128, 0));&quot;&gt;enables full re-analysis/rollback under different assumptions&lt;/font&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="110" width="250" x="349" y="120" as="geometry" />
+          <mxGeometry height="110" width="223" x="307" y="120" as="geometry" />
         </mxCell>
         <mxCell id="2NJ9P69aILRB7gsNBqAx-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#C6C6C6);strokeColor=light-dark(#000000,#000000);fontSize=14;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 15px;&quot;&gt;Filtering / Pre-processing&lt;br&gt;QC, outliers, systematics&lt;br&gt;transforms (FFT, wavelets, …)&lt;/font&gt;" vertex="1">
-          <mxGeometry height="110" width="280" x="639" y="120" as="geometry" />
+          <mxGeometry height="110" width="218" x="572" y="120" as="geometry" />
         </mxCell>
         <mxCell id="2NJ9P69aILRB7gsNBqAx-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#C6C6C6);strokeColor=light-dark(#000000,#000000);fontSize=14;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 15px;&quot;&gt;Analysis&lt;br&gt;Likelihood / MAP / MCMC or ML models (CNN/LSTM), etc...&lt;/font&gt;" vertex="1">
-          <mxGeometry height="110" width="250" x="959" y="120" as="geometry" />
+          <mxGeometry height="110" width="204" x="836" y="120" as="geometry" />
         </mxCell>
         <mxCell id="2NJ9P69aILRB7gsNBqAx-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#C6C6C6);strokeColor=light-dark(#000000,#000000);fontSize=14;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Analysis data retention&lt;br&gt;(versioned inputs, features,&lt;br&gt;model artifacts, outputs)&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 128, 0));&quot;&gt;enables reproducibility&lt;/font&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="110" width="280" x="1259" y="120" as="geometry" />
+          <mxGeometry height="110" width="205" x="1085" y="120" as="geometry" />
         </mxCell>
         <mxCell id="2NJ9P69aILRB7gsNBqAx-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#C6C6C6);strokeColor=light-dark(#000000,#000000);fontSize=14;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 15px;&quot;&gt;Exploitation&lt;br&gt;Decision / alert / report&lt;br&gt;actionable signal&lt;/font&gt;" vertex="1">
-          <mxGeometry height="110" width="250" x="1579" y="120" as="geometry" />
+          <mxGeometry height="110" width="176" x="1334" y="120" as="geometry" />
         </mxCell>
         <mxCell id="2NJ9P69aILRB7gsNBqAx-7" edge="1" parent="1" source="2NJ9P69aILRB7gsNBqAx-1" style="endArrow=block;endFill=1;strokeWidth=2;html=1;strokeColor=light-dark(#000000,#000000);" target="2NJ9P69aILRB7gsNBqAx-2">
           <mxGeometry relative="1" as="geometry" />
@@ -65,41 +62,22 @@
         <mxCell id="x5S2yHd0vcEVXTX7yE-Y-3" edge="1" parent="1" source="2NJ9P69aILRB7gsNBqAx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="2NJ9P69aILRB7gsNBqAx-13" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2NJ9P69aILRB7gsNBqAx-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFF2CC,#6666FF);strokeColor=light-dark(#000000,#000000);fontSize=14;" value="Telemetry processing unit such as prometheus&lt;br&gt;(metrics + logs)" vertex="1">
+        <mxCell id="2NJ9P69aILRB7gsNBqAx-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFF2CC,#6666FF);strokeColor=light-dark(#000000,#000000);fontSize=14;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Telemetry processing unit&lt;br&gt;such as metrics and logs&lt;/font&gt;" vertex="1">
           <mxGeometry height="110" width="420" x="590" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="2NJ9P69aILRB7gsNBqAx-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#DAE8FC,#9999FF);strokeColor=light-dark(#000000,#000000);fontSize=14;" value="Diagnostics / Dashboard for human decisions&lt;br&gt;evaluation on process quality --&amp;gt; feedback loop on pipeline" vertex="1">
+        <mxCell id="2NJ9P69aILRB7gsNBqAx-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#DAE8FC,#9999FF);strokeColor=light-dark(#000000,#000000);fontSize=14;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Diagnostics / Dashboard for human decisions&lt;br&gt;evaluation on process quality --&amp;gt; feedback loop on pipeline&lt;/font&gt;" vertex="1">
           <mxGeometry height="110" width="420" x="590" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="2NJ9P69aILRB7gsNBqAx-14" edge="1" parent="1" style="dashed=1;endArrow=block;endFill=1;strokeWidth=3;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=light-dark(#000000,#6666FF);" target="2NJ9P69aILRB7gsNBqAx-12" value="&lt;font style=&quot;font-size: 13px; color: light-dark(rgb(0, 0, 0), rgb(0, 153, 0)); background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;system health stats&lt;/font&gt;">
-          <mxGeometry relative="1" x="0.0053" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="340" y="260" />
-              <mxPoint x="695" y="260" />
-            </Array>
-            <mxPoint x="309" y="228" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2NJ9P69aILRB7gsNBqAx-15" edge="1" parent="1" style="dashed=1;endArrow=block;endFill=1;strokeWidth=3;html=1;fillColor=#0050ef;strokeColor=light-dark(#000000,#6666FF);exitX=0.25;exitY=1;exitDx=0;exitDy=0;" value="&lt;font style=&quot;font-size: 13px; background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255)); color: light-dark(rgb(0, 0, 0), rgb(0, 153, 0));&quot;&gt;QC signals / indicators&lt;/font&gt;">
-          <mxGeometry relative="1" x="-0.0079" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="799.71" y="230" as="sourcePoint" />
-            <mxPoint x="799.38" y="356" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2NJ9P69aILRB7gsNBqAx-16" edge="1" parent="1" source="2NJ9P69aILRB7gsNBqAx-4" style="dashed=1;endArrow=block;endFill=1;strokeWidth=3;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#6666FF);" target="2NJ9P69aILRB7gsNBqAx-12" value="&lt;font style=&quot;font-size: 13px; color: light-dark(rgb(0, 0, 0), rgb(0, 153, 0)); background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;analysis stats&lt;/font&gt;">
+        <mxCell id="2NJ9P69aILRB7gsNBqAx-16" edge="1" parent="1" source="2NJ9P69aILRB7gsNBqAx-4" style="dashed=1;endArrow=block;endFill=1;strokeWidth=3;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#6666FF);" value="&lt;font style=&quot;font-size: 13px; color: light-dark(rgb(0, 0, 0), rgb(0, 153, 0)); background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;analysis stats&lt;/font&gt;">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1022" y="260" />
-              <mxPoint x="905" y="260" />
-            </Array>
+            <Array as="points" />
+            <mxPoint x="887" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2NJ9P69aILRB7gsNBqAx-17" edge="1" parent="1" source="2NJ9P69aILRB7gsNBqAx-6" style="dashed=1;endArrow=block;endFill=1;strokeWidth=3;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#6666FF);" target="2NJ9P69aILRB7gsNBqAx-12" value="&lt;font style=&quot;font-size: 13px; color: light-dark(rgb(0, 0, 0), rgb(0, 153, 0)); background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;alerts feedback&lt;/font&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1704" y="420" />
+              <mxPoint x="1420" y="415" />
             </Array>
             <mxPoint x="1575.06" y="229.99878273955957" as="sourcePoint" />
             <mxPoint x="1009" y="420.28" as="targetPoint" />
@@ -110,7 +88,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2NJ9P69aILRB7gsNBqAx-20" edge="1" parent="1" style="strokeColor=light-dark(#D79B00,#CC0000);strokeWidth=3;endArrow=block;endFill=1;html=1;entryX=0.239;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" target="x5S2yHd0vcEVXTX7yE-Y-1" value="&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(255, 255, 255), rgb(204, 0, 0)); background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;adjust / optimise&lt;/font&gt;">
+        <mxCell id="2NJ9P69aILRB7gsNBqAx-20" edge="1" parent="1" style="strokeColor=light-dark(#FFFFFF,#CC0000);strokeWidth=3;endArrow=block;endFill=1;html=1;entryX=0.239;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" target="x5S2yHd0vcEVXTX7yE-Y-1" value="&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(255, 255, 255), rgb(204, 0, 0)); background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;human-driven adjustements&lt;/font&gt;">
           <mxGeometry relative="1" x="0.0023" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -121,14 +99,38 @@
             <mxPoint x="460" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2NJ9P69aILRB7gsNBqAx-22" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Analysed system&lt;/font&gt;" vertex="1">
+        <mxCell id="2NJ9P69aILRB7gsNBqAx-22" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Analysed system&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;(e.g. physical system, program, deployment platform)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="180" x="94" y="560" as="geometry" />
         </mxCell>
         <mxCell id="x5S2yHd0vcEVXTX7yE-Y-1" parent="1" style="swimlane;startSize=0;strokeWidth=4;strokeColor=light-dark(#000000,#6666FF);" value="" vertex="1">
-          <mxGeometry height="380" width="1840" x="10" y="110" as="geometry" />
+          <mxGeometry height="380" width="1510" x="20" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="2NJ9P69aILRB7gsNBqAx-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=13;align=center;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 18px;&quot;&gt;&lt;u&gt;Bird-eye view on a typical t&lt;font style=&quot;&quot;&gt;ime-series pipeline&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="1840" x="10" y="70" as="geometry" />
+        <mxCell id="2NJ9P69aILRB7gsNBqAx-14" edge="1" parent="x5S2yHd0vcEVXTX7yE-Y-1" source="2NJ9P69aILRB7gsNBqAx-1" style="dashed=1;endArrow=block;endFill=1;strokeWidth=3;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=light-dark(#000000,#6666FF);exitX=0.934;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;font style=&quot;font-size: 13px; color: light-dark(rgb(0, 0, 0), rgb(0, 153, 0)); background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;system health stats&lt;/font&gt;">
+          <mxGeometry relative="1" x="0.0053" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="256" y="150" />
+              <mxPoint x="611" y="150" />
+            </Array>
+            <mxPoint x="185.99999999999977" y="120" as="sourcePoint" />
+            <mxPoint x="611" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NJ9P69aILRB7gsNBqAx-15" edge="1" parent="x5S2yHd0vcEVXTX7yE-Y-1" style="dashed=1;endArrow=block;endFill=1;strokeWidth=3;html=1;fillColor=#0050ef;strokeColor=light-dark(#000000,#6666FF);exitX=0.25;exitY=1;exitDx=0;exitDy=0;" value="&lt;font style=&quot;font-size: 13px; background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255)); color: light-dark(rgb(0, 0, 0), rgb(0, 153, 0));&quot;&gt;QC signals / indicators&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.0023" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="690.33" y="124" as="sourcePoint" />
+            <mxPoint x="690" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NJ9P69aILRB7gsNBqAx-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=13;align=center;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 19px;&quot;&gt;&lt;u style=&quot;&quot;&gt;Bird-eye view on a typical t&lt;font style=&quot;&quot;&gt;ime-series pipeline&lt;/font&gt;&lt;/u&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="1520" x="10" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="x5S2yHd0vcEVXTX7yE-Y-6" edge="1" parent="1" source="2NJ9P69aILRB7gsNBqAx-22" style="endArrow=block;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.375;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#0000CC);startArrow=oval;startFill=1;endFill=1;" target="2NJ9P69aILRB7gsNBqAx-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="410" as="sourcePoint" />
+            <mxPoint x="380" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
