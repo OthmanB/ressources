@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2">
   <diagram name="Intent vs Guarantees" id="zDCm4h_CTcgWoepk86SU">
-    <mxGraphModel dx="977" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+    <mxGraphModel dx="977" dy="627" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="U-rA7nL-Z2wJbJtnImf5-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=2;align=center;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(51, 102, 0));&quot;&gt;Guarantees emerge here&lt;br&gt;(not from the implementation itself)&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="300" x="522.5" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="U-rA7nL-Z2wJbJtnImf5-7" parent="1" style="text;html=1;fontSize=14;fontColor=light-dark(#000000,#CC0000);align=center;" value="Intent expresses what is desired.&amp;nbsp;&lt;div&gt;Implementation produces code.&amp;nbsp;&lt;div&gt;Validation is where trust is earned.&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="U-rA7nL-Z2wJbJtnImf5-7" parent="1" style="text;html=1;fontSize=14;fontColor=light-dark(#000000,#FF0000);align=center;whiteSpace=wrap;" value="Intent expresses what is desired.&amp;nbsp;&lt;div&gt;Implementation produces code.&amp;nbsp;&lt;div&gt;Validation is where trust is earned.&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="57.5" width="265" x="540" y="206.25" as="geometry" />
         </mxCell>
       </root>
